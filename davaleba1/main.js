@@ -5,7 +5,7 @@ function func1(a,b) {
         return "Tolia"
     }
     else{
-        return "ar aris tolia"
+        return "ar aris toli"
     }
 
 }
