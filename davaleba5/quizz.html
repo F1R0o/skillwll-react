@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .answers {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="answers">
+            <div class="question">
+                <h1>Question 1: 2 + 2</h1>
+                <button class="wrong">1</button>
+                <button class="wrong">2</button>
+                <button class="wrong">3</button>
+                <button class="correct">4</button>
+            </div>
+        </div>
+
+        <div class="answers">
+            <div class="question">
+                <h1>Question 2: What is the capital of Georgia?</h1>
+                <button class="correct">Tbilisi</button>
+                <button class="wrong">Paris</button>
+                <button class="wrong">Gori</button>
+                <button class="wrong">Sagarejo</button>
+            </div>
+        </div>
+
+        <div class="answers">
+            <div class="question">
+                <h1>Question 3: 2 + 3</h1>
+                <button class="wrong">1</button>
+                <button class="wrong">2</button>
+                <button class="wrong">3</button>
+                <button class="correct">5</button>
+            </div>
+        </div>
+    </div>
+    <script src="quizz.js"></script>
+</body>
+</html>
