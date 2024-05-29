@@ -1,5 +1,4 @@
 
-document.addEventListener('DOMContentLoaded', () => {
     const questions = document.querySelectorAll('.answers');
 
     
@@ -39,5 +38,4 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
-});
 
