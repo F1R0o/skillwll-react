@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: rgb(109,4,188);
+            margin: 0;
+            padding: 0;
+            color: rgb(215,194,165);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .movie-card {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .MovieId {
+            background-color:rgb(109,4,188);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .MovieId:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.9);
+        }
+
+        .MovieId img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .MovieId-info {
+            padding: 15px;
+        }
+
+        .MovieId h1 {
+            margin: 10px 0;
+            font-size: 1.4em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .MovieId p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            
+        }
+
+        .janro {
+            font-size: 0.8em;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-card"></div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
