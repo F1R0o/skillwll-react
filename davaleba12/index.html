@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Content Display</title>
+</head>
+<body>
+    <div id="content-container">
+        <div id="meme-container">
+            <img id="meme" src="" alt="Random Meme" style="display: none;">
+        </div>
+        <div id="joke-container" style="display: none;">
+            <p id="joke"></p>
+        </div>
+        <div id="quote-container" style="display: none;">
+            <p id="quote"></p>
+            <p id="author"></p>
+        </div>
+        <div id="riddle-container" style="display: none;">
+            <p id="riddle-question"></p>
+            <p id="riddle-answer" style="display: none;"></p>
+        </div>
+    </div>
+    <button onclick="showMeme()">Show Random Meme</button>
+    <button onclick="showJoke()">Show Random Joke</button>
+    <button onclick="showQuote()">Show Random Quote</button>
+    <button onclick="showRiddle()">Show Random Riddle</button>
+    <button onclick="revealAnswers()">Reveal Answer</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
